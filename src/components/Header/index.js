@@ -11,7 +11,7 @@ export const Header = () => {
       <div className={headerStyles['header__content']}>
         <p>Phạm Thanh Hoa</p>
         <div className={headerStyles['header__user']}>
-          <img src={`${PUBLIC_URL}/icons/iconbh.svg`} alt='' />
+          <img src={`${PUBLIC_URL}/icons/user.svg`} alt='' />
         </div>
       </div>
     </div>

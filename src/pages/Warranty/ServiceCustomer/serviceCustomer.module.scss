@@ -1,6 +1,6 @@
 .serviceCustomer {
   width: 90%;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
   &__delete {
     padding: 30px 0;
@@ -86,7 +86,7 @@
     }
   }
   @media (max-width: 1180px) {
-    // width: 100%;
+    max-width: 900px;
   }
   @media (max-width: 820px) {
     table {
