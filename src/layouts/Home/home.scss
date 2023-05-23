@@ -8,8 +8,7 @@
     background: url(../../../public/bg.jpg) center 0 no-repeat;
     background-size: cover;
     overflow-x: auto;
-    height: calc(100vh - 54px);
-    padding: 20px 80px 40px;
+    height: calc(100vh - 55px);
   }
   @media (max-width: 820px) {
     &__main {
