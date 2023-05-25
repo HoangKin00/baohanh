@@ -31,10 +31,6 @@
   }
   @media (max-width: 767px) {
     padding: 5px 15px;
-    &__des img {
-      max-width: 120px;
-      min-width: 120px;
-    }
     &__content {
       gap: 3px;
       p {

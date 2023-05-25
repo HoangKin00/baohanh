@@ -38,15 +38,15 @@
   }
   @media (max-width: 767px) {
     &__item {
-      width: 34%;
+      width: 37%;
     }
     &__box {
-      gap: 40px;
+      gap: 45px;
     }
   }
   @media (max-width: 375px) {
     &__item {
-      width: 37%;
+      width: 39%;
     }
     &__box {
       gap: 40px;
@@ -55,6 +55,9 @@
   @media (max-width: 320px) {
     &__box {
       gap: 30px;
+    }
+    &__item {
+      width: 41%;
     }
   }
 }
