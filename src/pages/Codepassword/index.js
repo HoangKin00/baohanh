@@ -1,15 +1,28 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { PUBLIC_URL } from '../../utils/const';
 import './codepassword.scss';
 
 const Codepassword = () => {
+  const [code, setCode] = useState('');
+  const [notify, setNotify] = useState('');
+  const navigate = useNavigate();
+  const handleCode = (e) => {
+    setCode(e.target.value);
+  };
+  const clickCode = () => {
+    if (code === '') {
+      setNotify('Vui lòng nhập OTP');
+      return;
+    }
+    navigate('/login');
+  };
   return (
     <div className='codepassword'>
       <div className='container'>
         <div className='codepassword__box'>
           <div className='codepassword__pic'>
-            <img src={`${PUBLIC_URL}/login.png`} />
+            <img src={`${PUBLIC_URL}/login.png`} alt='' />
           </div>
           <div className='codepassword__detail'>
             <div className='codepassword__form'>
@@ -18,11 +31,13 @@ const Codepassword = () => {
               </div>
               <div className='codepassword__input'>
                 <label>Mã OTP</label>
-                <input type='number' name='phone' required />
+                <input type='text' name='phone' value={code} onChange={handleCode} required />
               </div>
-              <Link to={'/reset-password'} className='codepassword__button'>
-                <button>Tiếp theo</button>
-              </Link>
+
+              <div className='codepassword__button'>
+                <button onClick={clickCode}>Nhận mã</button>
+                {notify !== '' && <p>{notify}</p>}
+              </div>
             </div>
           </div>
         </div>
