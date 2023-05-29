@@ -34,7 +34,7 @@ const Login = () => {
       <div className='container'>
         <div className='login__box'>
           <div className='login__pic'>
-            <img src={`${PUBLIC_URL}/login.png`} alt='' />
+            <img width={684} height={469} src={`${PUBLIC_URL}/images/login.png`} alt='' />
           </div>
           <div className='login__detail'>
             <div className='login__form'>

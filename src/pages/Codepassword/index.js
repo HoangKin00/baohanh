@@ -22,7 +22,7 @@ const Codepassword = () => {
       <div className='container'>
         <div className='codepassword__box'>
           <div className='codepassword__pic'>
-            <img src={`${PUBLIC_URL}/login.png`} alt='' />
+            <img width={684} height={469} src={`${PUBLIC_URL}images/login.png`} alt='' />
           </div>
           <div className='codepassword__detail'>
             <div className='codepassword__form'>

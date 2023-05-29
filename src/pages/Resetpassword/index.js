@@ -9,7 +9,7 @@ const Resetpassword = () => {
       <div className='container'>
         <div className='resetpassword__box'>
           <div className='resetpassword__pic'>
-            <img src={`${PUBLIC_URL}/login.png`} />
+            <img width={684} height={469} src={`${PUBLIC_URL}/images/login.png`} />
           </div>
           <div className='resetpassword__detail'>
             <div className='resetpassword__form'>

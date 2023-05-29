@@ -23,7 +23,7 @@ const Forgotpassword = () => {
       <div className='container'>
         <div className='forgotpassword__box'>
           <div className='forgotpassword__pic'>
-            <img src={`${PUBLIC_URL}/login.png`} alt='' />
+            <img width={684} height={469} src={`${PUBLIC_URL}/images/login.png`} alt='' />
           </div>
           <div className='forgotpassword__detail'>
             <div className='forgotpassword__form'>
