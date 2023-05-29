@@ -5,7 +5,7 @@
     width: 100%;
   }
   &__main {
-    background: url(../../../public/bg.jpg) center 0 no-repeat;
+    background: url(../../../public/images/bg.jpg) center 0 no-repeat;
     background-size: cover;
     overflow-x: auto;
     height: calc(100vh - 55px);
@@ -17,7 +17,7 @@
   }
   @media (max-width: 767px) {
     &__main {
-      background: url(../../../public/bg-m.jpg) center 0 no-repeat;
+      background: url(../../../public/images/bg-m.jpg) center 0 no-repeat;
 
       padding: 10px 30px 40px;
     }

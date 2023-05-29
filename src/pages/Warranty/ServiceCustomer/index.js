@@ -7,7 +7,7 @@ const ServiceCustomer = () => {
   return (
     <div className={serviceStyles['serviceCustomer']}>
       <Link to={'/bao-hanh'} className={serviceStyles['serviceCustomer__arrow']}>
-        <img src={`${PUBLIC_URL}/icons/arrow.svg`} alt='' /> Quay lại
+        <img width={8} height={14} src={`${PUBLIC_URL}/icons/arrow.svg`} alt='' /> Quay lại
       </Link>
       <div className={serviceStyles['serviceCustomer__box']}>
         <div className={serviceStyles['serviceCustomer__title']}>

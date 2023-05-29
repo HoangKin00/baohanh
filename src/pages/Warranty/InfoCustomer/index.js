@@ -7,7 +7,7 @@ const InfoCustomer = () => {
   return (
     <div className={infoStyles['infomation']}>
       <Link to={'/bao-hanh'} className={infoStyles['infomation__arrow']}>
-        <img src={`${PUBLIC_URL}/icons/arrow.svg`} alt='' /> Quay lại
+        <img width={8} height={14} src={`${PUBLIC_URL}/icons/arrow.svg`} alt='' /> Quay lại
       </Link>
       <div className={infoStyles['infomation__box']}>
         <div className={infoStyles['infomation__title']}>
